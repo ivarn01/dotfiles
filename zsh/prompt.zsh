@@ -1,0 +1,1 @@
+/home/ivar/.p10k.zsh

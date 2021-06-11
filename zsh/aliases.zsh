@@ -1,3 +1,2 @@
-
-# Go back
-#alias = ..="cd .."
+# Go to dotfiles
+alias dotfiles="cd ~/dotfiles"
