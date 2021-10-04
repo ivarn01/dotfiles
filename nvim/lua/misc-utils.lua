@@ -33,6 +33,10 @@ opt("b", "expandtab", true)
 opt("b", "shiftwidth", 2)
 opt("b", "smartindent", true)
 
+-- Colorscheme
+opt("o", "termguicolors", true)
+vim.cmd "colorscheme iceberg"
+
 local M = {}
 
 function M.is_buffer_empty()

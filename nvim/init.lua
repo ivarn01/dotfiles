@@ -10,9 +10,6 @@ end
 vim.cmd [[packadd packer.nvim]]
 vim.cmd "autocmd BufWritePost plugins.lua PackerCompile"
 
---require("colorizer").setup()
---require("neoscroll").setup() -- smooth scroll
-
 local cmd = vim.cmd
 local g = vim.g
 
@@ -22,8 +19,7 @@ g.auto_save = 0
 -- Colorscheme related stuff
 cmd "syntax on"
 
-local base16 = require "base16"
-base16(base16.themes["onedark"], true)
+--local base16 = require "base16"
 
 -- blankline
 
@@ -50,3 +46,6 @@ require('nvim_comment').setup()
 require "plugins"
 require "misc-utils"
 require "config"
+
+require("colorizer").setup()
+require("neoscroll").setup() -- smooth scroll

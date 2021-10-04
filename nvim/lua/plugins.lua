@@ -3,8 +3,11 @@ return require("packer").startup(
 	-- Packer can manage itself as an optional plugin
         use {"wbthomason/packer.nvim", opt = true}
 
+        -- Colorscheme
+        use "cocopon/iceberg.vim"
+
         -- Color related stuff
-        use "siduck76/nvim-base16.lua"
+        -- use "siduck76/nvim-base16.lua"
         use "norcalli/nvim-colorizer.lua"
 
         -- Lang stuff

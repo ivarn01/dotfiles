@@ -1,5 +1,3 @@
---for filename in dir("~/dotfiles/nvim/lua/config") do require("config." + filename) end
-
 require("config.compe-completion")
 require("config.dashboard")
 require("config.file-icons")
