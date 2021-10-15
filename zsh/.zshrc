@@ -20,6 +20,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Password store
 export PASSWORD_STORE_DIR="/home/ivar/Documents/webkom/password-store"
 
+# For some school related stuff
+export PATH="$PATH:$HOME/Documents/skole/H21/gcc-arm-none-eabi-10.3-2021.07/bin"
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # History settings
