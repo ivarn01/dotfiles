@@ -23,6 +23,7 @@ export PASSWORD_STORE_DIR="/home/ivar/Documents/webkom/password-store"
 # For some school related stuff
 export PATH="$PATH:$HOME/Documents/skole/H21/gcc-arm-none-eabi-10.3-2021.07/bin"
 
+# Setting the theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # History settings
@@ -38,10 +39,6 @@ zstyle ':completion:*' menu select # Activate highlight on completion
 # Load source files
 for zsh_file ($ROOT/*.zsh) source $zsh_file
 source $ZSH/oh-my-zsh.sh
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# export ARCHFLAGS="-arch x86_64"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
