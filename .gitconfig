@@ -1,5 +1,12 @@
 [user]
-	email = 69514187+ivarn01@users.noreply.github.com
-	name = Ivar Nakken
+  email = 69514187+ivarnakken@users.noreply.github.commit
+  name = Ivar Nakken
+
 [commit]
-	gpgsign = true
+  gpgsign = true
+  verbose = true
+
+[core]
+  editor = nvim
+  # The following line defines a global .gitattributes file
+  attributesfile = ~/.gitattributes
