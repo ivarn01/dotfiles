@@ -1,0 +1,24 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "vim.smartRelativeLine": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "editor.wordWrap": "off",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Nord Wave",
+  "editor.cursorStyle": "block",
+  "files.exclude": {
+    "**/.env": true
+  },
+  "javascript.validate.enable": false,
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+  "flow.useNPMPackagedFlow": true,
+  "window.zoomLevel": 5
+}
